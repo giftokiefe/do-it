@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Outfit:wght@100..900&display=swap");
+
+.today-task {
+  padding-left: 250px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column; /* Change to column layout */
+  align-items: flex-start; /* Align children to the left */
+  gap: 20px; /* Space between today-task-header and functional-section */
+}
+
+.today-task-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 0;
+}
+
+.main-focus {
+  font-family: "Oswald", sans-serif;
+  color: azure;
+  font-size: 35px;
+  margin-bottom: 0;
+}
+
+.responsive-header {
+  font-family: "Oswald", sans-serif;
+  color: azure;
+  font-size: 50px;
+  margin-top: -20px;
+}
+
+.TodoForm {
+  width: 1000px;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  border-radius: 20px;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.task-assigner {
+  padding: 20px;
+  padding-top: 25px;
+  font-size: 25px;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 300px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  padding-right: 480px;
+}
+
+.todo-input::placeholder {
+  color: #ede4e4;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.today-task form {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.input-icon {
+  position: relative;
+  font-size: 25px;
+  padding-right: 25px;
+  color: #a18aff;
+}
+
+.clock-icon {
+  padding-right: 10px;
+}

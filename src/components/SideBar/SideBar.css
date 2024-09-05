@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap");
+
+.sidebar {
+  width: 350px;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #f0f4f9;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.profile-img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column; /* Stacks text vertically */
+}
+
+.app-name {
+  margin-bottom: 3px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.user-name {
+  color: #a18aff;
+  margin-top: 0; /* Removes any default top margin */
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.custom-divider {
+  border: none;
+  position: relative;
+  border-radius: 2px;
+  border-top: 3px solid #a18aff;
+  width: 70%;
+  padding-right: 10px;
+  padding-bottom: 60px;
+}
+
+.menu {
+  padding-bottom: 20px;
+  display: flex;
+  cursor: pointer;
+  gap: 1px;
+  flex-direction: column;
+  padding-left: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.menu-item {
+  display: flex;
+}
+
+.calendar-icon {
+  color: #a18aff;
+  font-size: 24px;
+}
+
+.menu-text {
+  margin-left: 10px;
+}
+
+.task-option {
+  padding-left: 60px;
+}
+
+.menu-item:hover {
+  background-color: #e2e6eb;
+  border-radius: 50px;
+}
+
+.scheduled-tasks {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+.scheduled-tasks-icon {
+  font-size: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 30px;
+}
+
+.scheduled-tasks:hover .scheduled-tasks-icon {
+  color: #a18aff;
+}
+
+.scheduled-tasks:hover {
+  background-color: #e2e6eb;
+  border-radius: 50px;
+}
+
+.scheduled-tasks p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.settings {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.settings-icon {
+  font-size: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 30px;
+}
+
+.settings:hover .settings-icon {
+  color: #a18aff;
+}
+
+.settings:hover {
+  background-color: #e2e6eb;
+  border-radius: 50px;
+}
+
+.settings p {
+  display: inline-block;
+  vertical-align: middle;
+}
